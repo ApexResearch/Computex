@@ -1,0 +1,65 @@
+# Rust
+/target
+Cargo.lock
+*.rlib
+*.rmeta
+
+# IDE
+.vscode
+.idea
+*.iml
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+
+# Temporary files
+tmp/
+temp/
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+.pytest_cache
+
+# Coverage
+coverage/
+*.coverage
+
+# Debug
+debug/
+.debug
+
+# Node
+node_modules/
+package-lock.json
+
+# Docker
+.dockerignore
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# IDE settings
+.vscode/settings.json
+.idea/workspace.xml
